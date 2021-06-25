@@ -1,4 +1,9 @@
 (executable
- (public_name modern_ocaml)
- (name main)
- (libraries modern_ocaml))
+ (public_name Main)
+ (modules main)
+ (libraries modern_ocaml decoders-yojson))
+
+(executable
+ (public_name Shapes)
+ (modules Shapes)
+ (libraries modern_ocaml decoders-yojson))

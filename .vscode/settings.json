@@ -1,0 +1,6 @@
+{
+	"ocaml.sandbox": {
+		"kind": "esy",
+		"root": "${workspaceFolder:modern-ocaml-decoders}"
+	}
+}

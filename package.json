@@ -3,10 +3,12 @@
     "override": {
         "buildsInSource": "unsafe",
         "dependencies": {
-            "ocaml": "4.11.0"
+            "ocaml": "4.11.0",
+            "@opam/decoders-yojson": "0.6.0"
+
         },
         "devDependencies": {
-            "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam"
+            "@opam/ocaml-lsp-server": "*"
         }
     }
 }
